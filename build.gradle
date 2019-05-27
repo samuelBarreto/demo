@@ -8,8 +8,7 @@ buildscript {
 }
 group = 'io.scheduller'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 11
-targetCompatibility = 11
+
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
@@ -25,6 +24,8 @@ bootJar {
 repositories {
     mavenCentral()
 }
+sourceCompatibility = 11.0
+targetCompatibility = 11.0
 
 
 dependencies {
